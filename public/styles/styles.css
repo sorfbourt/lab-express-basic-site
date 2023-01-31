@@ -28,3 +28,8 @@ nav ul li a{
     color: blue;
     text-decoration: none;
 }
+
+footer {
+    font-size:10px;
+    text-align: center;
+}
