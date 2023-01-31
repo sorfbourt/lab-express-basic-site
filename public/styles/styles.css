@@ -3,18 +3,28 @@ body {
 }
 
 nav ul{
+    padding:5px;
     background-color: blueviolet;
     list-style: none;
     display:flex;
+    justify-content: space-between;
 }
 
 nav ul li{
     padding: 10px 20px;
     margin: 20px;
-    border: solid #AAA8E6 1px;
+    background: pink;
+    border: solid #AAA8E6 3px;
+    border-radius: 5px;
+    
+}
+
+nav ul li:hover{
+    border: solid blue 3px;
     
 }
 
 nav ul li a{
-    color: #AAA8E6;
+    color: blue;
+    text-decoration: none;
 }
